@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="IE Request" max_length="40" name="x_unon3_inst_effec_ie_request" type="collection">
-        <element label="Assigned Rep" max_length="4000" name="assigned_rep" reference="sys_user" type="glide_list"/>
-        <element label="Supervisor" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
-    </element>
+    <element extends="task" label="IE Request" max_length="40" name="x_unon3_inst_effec_ie_request" type="collection"/>
 </database>
